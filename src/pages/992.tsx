@@ -321,9 +321,9 @@ export default function Fifth_SP() {
 
               <div className="main-des-title-6-7">
                 <b>
-                  Cover All Your Burial Costs and Unpaid Debts with This   {""}
+                Before You Pay Your Car Insurance Bill This Month,  {""}
                   <span style={{ backgroundColor: "#FFC300" }}>
-                    Final Allowance Benefit Worth $25,000!
+                  Check This Gov Backed Program in 2025...
                   </span>{" "}
 
                 </b>
@@ -331,12 +331,12 @@ export default function Fifth_SP() {
 
 
               {/* <img className='topic-img-larger' src = {Headline} alt = "head"/> */}
-              <img className="topic-img-middle-z" src={Head_bg} alt="head" />
+              <img className="topic-img-middle-z" src={"https://convertri.imgix.net/7562552f-90c0-11ea-abef-0697e5ca793e%2F2bd3e4ed982aedd952d7678f7af4f9cf7eb8ade6%2Fins.jpeg?auto=compress,format&dpr=2&fit=scale&w=460&h=259"} alt="head" />
               <div style={{ marginTop: '14px', marginLeft: '10px' }} className="main-des-5">
-                Eligible Americans are taking advantage of this opportunity to secure their $25,000 in Final Allowance Benefit, which covers all of their Burial Costs and Unpaid Debts!
+              Americans are taking advantage of this opportunity lower their Auto Insurance rates significantly under this new LCA program.
                 <br /> <br />
 
-                Simply answer the questions below and claim your benefit while you still can!
+                Simply answer the questions below and claim your discounted plan while you still can!
               </div>
             </div>
             <div style={{ marginTop: '15px' }} className="survey">
@@ -352,7 +352,15 @@ export default function Fifth_SP() {
                 </div>
               </div>
             </div>
+
+
           </div>
+          <img className="topic-img-middle-z" style={{ marginTop: '20px' }}  src={"https://convertri.imgix.net/7562552f-90c0-11ea-abef-0697e5ca793e%2Fab9fa3ba7b98c8992f944850d83f0671f760c0c0%2Ff035afdf-e613-11ed-922e-06cea9523c95_a8154e206fdb23bd140889c26fb0b7be4655a1bf_newpremium3.jpeg?auto=compress,format&dpr=2&fit=scale&w=460&h=231"} alt="head" />
+
+          <img className="topic-img-middle-z" style={{ marginTop: '20px' }}  src={"https://convertri.imgix.net/7562552f-90c0-11ea-abef-0697e5ca793e%2F74ca61be8b6726c0d265d0c8f5f08f1ab116692a%2Ff035afdf-e613-11ed-922e-06cea9523c95_1212e98684692ad7703610f522705d58eb93fcc7_oldpremium3.jpeg?auto=compress,format&dpr=2&fit=scale&w=460&h=231"} alt="head" />
+
+          <img className="topic-img-middle-z" style={{ marginTop: '20px' }}  src={"https://convertri.imgix.net/7562552f-90c0-11ea-abef-0697e5ca793e%2Fe1444462913fa7028d40d0b004ffc97406de8031%2Ff035afdf-e613-11ed-922e-06cea9523c95_a96ba2f263bc587b48e2a1ab9340d43b79f5beec_newpremium2.jpeg?auto=compress,format&dpr=2&fit=scale&w=460&h=246"} alt="head" />
+    
         </>
       ) : step !== "process" && step !== "completed" ? (
         <div className="checking" style={{ fontWeight: "700" }}>
@@ -363,7 +371,7 @@ export default function Fifth_SP() {
           <div className="congrats">Congratulations, You Qualify!</div>
           <div className="top-description-5">
 
-            <b>Make A Quick Call</b> To Claim Your Final Allowance Benefit Worth Upto $25,000!
+            <b>Make A Quick Call</b> To Claim Your Discounted Auto Insurance Plan Now!
           </div>
           <div className="spots-count">Spot Remaining: 4</div>
           <a href="tel:++13214858035">
@@ -384,7 +392,7 @@ export default function Fifth_SP() {
       <div className="footer">
         <div className="terms">Terms & Conditions | Privacy Policy</div>
       </div>
-      <ToastContainer
+      {/* <ToastContainer
         position="bottom-right"
         autoClose={5000}
         newestOnTop={false}
@@ -393,7 +401,7 @@ export default function Fifth_SP() {
         pauseOnFocusLoss
         draggable
         pauseOnHover
-      />
+      /> */}
     </div>
   );
 }
