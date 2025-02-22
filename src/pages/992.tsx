@@ -118,7 +118,7 @@ export default function Fifth_SP() {
     getButtonClick({ buttonId: 5 })
   };
 
-  const [quiz, setQuiz] = useState("1. Are you over 50?");
+  const [quiz, setQuiz] = useState("1.Are You Already Insured?");
   const [step, setStep] = useState("process");
   const [min, setMin] = useState(3);
   const [second, setSecond] = useState<any>(0);
@@ -168,7 +168,7 @@ export default function Fifth_SP() {
 
   const handleQuizP = () => {
     topScroll("btn");
-    if (quiz === "1. Are you over 50?") {
+    if (quiz === "1.Are You Already Insured?") {
       setQuiz("2. Do You Live in the USA?");
       setYes("Yes");
       setNo("No");
@@ -182,7 +182,7 @@ export default function Fifth_SP() {
 
   const handleQuizN = () => {
     topScroll("btn");
-    if (quiz === "1. Are you over 50?") {
+    if (quiz === "1.Are You Already Insured?") {
       setQuiz("2. Do You Live in the USA?");
       setYes("Yes");
       setNo("No");
