@@ -274,16 +274,7 @@ export default function Fifth_SP() {
   }, []);
   return (
     <div>
-      <img 
-        src={Logo} 
-        alt="Logo" 
-        className="logo-image"
-        style={{
-          maxWidth: '200px',
-          display: 'block',
-          margin: '10px auto'
-        }}
-      />
+      
 
       {/* <ToastContainer /> */}
 
@@ -319,6 +310,16 @@ export default function Fifth_SP() {
       </div>
       <div style={{ marginBottom: '4px' }} className="top-sticky-blue-test2" id="top">
         {/* Benefits For Elderly */}
+        <img 
+        src={Logo} 
+        alt="Logo" 
+        className="logo-image"
+        style={{
+          maxWidth: '200px',
+          display: 'block',
+          margin: '10px auto'
+        }}
+      />
 
       </div>
       {step === "process" ? (
