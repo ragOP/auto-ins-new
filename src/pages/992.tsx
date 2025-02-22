@@ -9,6 +9,7 @@ import { ToastContainer, toast, cssTransition } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import Head_bg from "../assets/share.png";
 import Headline from "../assets/headline_spandeb1.png";
+import Logo from "../assets/rag.png";
 
 // google tag manager
 // const tagManagerArgs = {
@@ -273,6 +274,17 @@ export default function Fifth_SP() {
   }, []);
   return (
     <div>
+      <img 
+        src={Logo} 
+        alt="Logo" 
+        className="logo-image"
+        style={{
+          maxWidth: '200px',
+          display: 'block',
+          margin: '10px auto'
+        }}
+      />
+
       {/* <ToastContainer /> */}
 
       <div
@@ -283,7 +295,7 @@ export default function Fifth_SP() {
         }}
         className="top-sticky-blue-test2Above"
         id="top"
-      >
+      > 
         <div
           style={{
             display: 'inline-block',
@@ -306,7 +318,8 @@ export default function Fifth_SP() {
         </style>
       </div>
       <div style={{ marginBottom: '4px' }} className="top-sticky-blue-test2" id="top">
-        Benefits For Elderly
+        {/* Benefits For Elderly */}
+
       </div>
       {step === "process" ? (
         <>
