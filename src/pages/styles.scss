@@ -77,7 +77,8 @@ a{
 @media (max-width: 768px) {
   .top-sticky-blue-test2 {
     text-align: center; /* Center-align the text */
-    padding: 1.1rem .6rem; /* Adjust padding for smaller screens */
+    padding:.6rem .6rem; /* Adjust padding for smaller screens */
+
     margin-top: -4px;
 
   }
