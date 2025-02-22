@@ -280,7 +280,7 @@ export default function Fifth_SP() {
 
       <div
         style={{
-          marginBottom: '4px',
+  
           overflow: 'hidden', // Ensure the text doesn't overflow outside the container
           whiteSpace: 'nowrap', // Prevent the text from wrapping
         }}
@@ -321,9 +321,9 @@ export default function Fifth_SP() {
           height: '40px',
      
         }}
-       </center>
+   
       />
-
+    </center>
       </div>
       {step === "process" ? (
         <>
